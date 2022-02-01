@@ -1,0 +1,19 @@
+{% extends "student/base.html" %}
+{% block content %}
+<table class="table table-striped">
+    <tr>
+        <th>Attribute</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>{{ stream.id }}</td>
+    <tr>
+        <td>Stream Name</td>
+        <td>{{ stream.stream_name }}</td>
+        
+    </tr>
+    
+</table>
+
+{% endblock content %}

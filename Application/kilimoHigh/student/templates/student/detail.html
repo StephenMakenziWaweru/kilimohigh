@@ -1,0 +1,30 @@
+{% extends "student/base.html" %}
+{% block content %}
+<table>
+    <tr>
+        <th>Attribute</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>First Name</td>
+        <td>{{ student.first_name }}</td>
+    <tr>
+        <td>Last Name</td>
+        <td>{{ student.last_name }}</td>
+        
+    </tr>
+    <tr>
+        <td>Date of ADM</td>
+        <td>{{ student.date_of_admission }}</td>
+    </tr>
+    <tr>
+        <td>Guardian</td>
+        <td>{{ student.guardian }}</td>
+    </tr>
+    <tr>
+        <td>Stream</td>
+        <td>{{ student.stream_name }}</td>
+    </tr>
+</table>
+
+{% endblock content %}
